@@ -1,4 +1,4 @@
 import requests
 
-response = requests.get("https://ipinfo.io")
+response = requests.get("http://ip-api.com/json/")
 print(response.json())
